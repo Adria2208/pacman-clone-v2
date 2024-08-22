@@ -194,7 +194,6 @@ public class GameManager : MonoBehaviour
 
     private void RenderLivesUI()
     {
-        Debug.Log("RenderLivesUI entered");
         GameObject[] livesUI = GameObject.FindGameObjectsWithTag("LifeUI");
 
         foreach (GameObject item in livesUI)
